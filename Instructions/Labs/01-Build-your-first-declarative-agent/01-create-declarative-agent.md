@@ -114,6 +114,10 @@ Next, publish your agent to Microsoft 365 Copilot. From the **Product Support** 
 1. Under **Share link**, select **Copy** to copy the share link for your agent, then select **Done**.
 
     ![Screenshot of the Availability options window highlighting the Copy button.](../Media/share-link-copy.png)
+
+> [!IMPORTANT]
+> If the copied share link contains `&amp;`, replace each instance with `&` before you open the link.
+
 1. Notice that the **Publish details** section of your agent's overview page reflects that the agent has been published.
 
     ![Screenshot of the publish details section of the Product Support agent in Copilot Studio.](../Media/publish-details.png)
@@ -121,6 +125,8 @@ Next, publish your agent to Microsoft 365 Copilot. From the **Product Support** 
     If you need to copy the Share Link again, select **Availability options** from the **Publish details** section.
 
 1. Open a new tab in your web browser, paste the share link into the URL bar, then select **enter**. A modal window appears with an overview of your agent. This displays the user-facing information you provided about your agent during publishing, as well as the permissions required by your agent.
+
+    If your browser prompts you to open Microsoft Teams, select **Cancel**. On the Microsoft Teams page, select **Use the web app instead**.
 
     ![Screenshot of the modal window providing overview info for the Product Support agent before it's added to Microsoft 365 Copilot.](../Media/product-support-add-agent.png)
 
