@@ -12,7 +12,7 @@ lab:
 
 # Create a declarative agent
 
-In this exercise you will create a declarative agent using generative AI, refine the instructions, publish the agent to Microsoft 365, and test the agent in Microsoft 365 Copilot.
+In this exercise you will create a declarative agent using generative AI, refine the instructions, publish the agent to Microsoft 365 and Microsoft Teams, and test the agent in Microsoft 365 Copilot.
 
 This exercise should take approximately **20** minutes to complete.
 
@@ -33,6 +33,8 @@ Start by creating a new declarative agent in Copilot Studio. Use generative AI t
 1. When you reach Copilot Studio, you'll likely start on the Home page for creating a new agent.
 
     ![Screenshot of the conversational interface for creating a custom agent.](../Media/copilot-start-screen.png)
+
+1. In the upper-right corner of the page, verify that the Environment Selector shows the environment you created for this lab. If it shows the default environment, select the Environment Selector, then select the environment you created.
 
 1. Navigate to **Agents** in the left side navigation panel.
 
@@ -57,7 +59,7 @@ Next, configure the agent's properties and metadata manually to ensure consisten
   
     ```text
         - You are an agent tasked with answering questions about Contoso Electronics products.
-        - Start every response to the user with "Thanks for using a Copilot agent!\n\n" and then answer the questions and help the user.
+        - Start every response to the user with "Thanks for using a Copilot agent!" and then answer the questions and help the user.
         - Do not answer questions unrelated to Contoso Electronics products.
         - Maintain a helpful and approachable tone throughout interactions.
     ```
@@ -87,9 +89,9 @@ Next, test the behavior of your agent in the test pane within Copilot Studio bef
 > [!NOTE]
 > If you need to edit your agent, select **edit** in the **Details** section of the agent overview page. Save your changes. Before testing again, select the **New Chat** button inside of the test pane.
 
-## Publish the agent to Microsoft 365 Copilot
+## Publish the agent to Microsoft 365 Copilot and Microsoft Teams
 
-Next, publish your agent to Microsoft 365 Copilot. From the **Product Support** agent overview page:
+Next, publish your agent to Microsoft 365 Copilot and Microsoft Teams. From the **Product Support** agent overview page:
 
 1. Select the **Publish** button. You're prompted to enter information about your agent that will be displayed to users in Microsoft 365 Copilot and Microsoft Teams.
 
@@ -114,22 +116,20 @@ Next, publish your agent to Microsoft 365 Copilot. From the **Product Support** 
 1. Under **Share link**, select **Copy** to copy the share link for your agent, then select **Done**.
 
     ![Screenshot of the Availability options window highlighting the Copy button.](../Media/share-link-copy.png)
+
 1. Notice that the **Publish details** section of your agent's overview page reflects that the agent has been published.
 
     ![Screenshot of the publish details section of the Product Support agent in Copilot Studio.](../Media/publish-details.png)
 
     If you need to copy the Share Link again, select **Availability options** from the **Publish details** section.
 
-1. Open a new tab in your web browser, paste the share link into the URL bar, then select **enter**. A modal window appears with an overview of your agent. This displays the user-facing information you provided about your agent during publishing, as well as the permissions required by your agent.
+1. Open a new tab in your web browser, paste the share link into the URL bar, then select **Enter**. If prompted to open Microsoft Teams, select **Cancel**, and then select **Use the web app instead**. A modal window appears with an overview of your agent. This displays the user-facing information you provided about your agent during publishing, as well as the permissions required by your agent.
 
     ![Screenshot of the modal window providing overview info for the Product Support agent before it's added to Microsoft 365 Copilot.](../Media/product-support-add-agent.png)
 
-1. Select **Add** to add your agent to Microsoft 365 Copilot.
+1. Select **Add** to add your agent to **Microsoft Teams**.
 
-1. Wait for your agent to be added. Your agent is launched in Microsoft 365 Copilot.
-
-> [!NOTE]
-> If the agent doesn´t launch in Microsoft 365 Copilot, navigate to Microsoft 365 Copilot using the **App Launcher** icon (grid icon) in the top-left of Microsoft Teams page.
+1. Wait for your agent to be added. Your agent is launched first in Microsoft Teams.
 
 ## Test the agent in Microsoft 365 Copilot
 
@@ -137,22 +137,26 @@ Next, let's test the agent in Microsoft 365 Copilot and validate its functionali
 
 Following the previous steps, you are currently in the **immersive** agent experience. Notice in the **Agents** section of the pane to the side of the chat interface that **Product Support** is selected as the agent you are currently chatting directly with.
 
+1. Navigate to **Microsoft 365 Copilot** by selecting the **App launcher** (grid icon) in Microsoft Teams, or by opening [Microsoft 365 Copilot](https://m365.cloud.microsoft.com) at `https://m365.cloud.microsoft.com`.
+
+1. Select the **Product Support** agent from the **Agents** section of the left navigation pane.
+
 ![Screenshot of the immersive experience with the Product Support agent in Microsoft 365 Copilot.](../Media/product-support-immersive.png)
 
 > [!NOTE]
 > If the **Product Support** agent is not displayed in the **Agents** section of the left navigation pane, select **More agents**. Then under **Your agents**, pin the **Product Support** agent and select it from the list.
 
-1. In the prompt box, enter `What can you do?` and submit your message.
+3. In the prompt box, enter `What can you do?` and submit your message.
 
 1. Send the message and wait for the response. Notice how the response starts with the text "Thanks for using a Copilot agent!" following the guidance you provided in the agent's instructions.
 
     Continuing in the browser, let's test the **in-context** experience.
 
-1. Above the **Agents** pane in the sidebar, select **New chat** to start a new conversation with Microsoft 365 Copilot, exiting your immersive chat with the **Product Support** agent.
+1. Above the **Agents** section in the sidebar, select **New chat** to start a new conversation with Microsoft 365 Copilot, exiting your immersive chat with the **Product Support** agent.
 
     ![Screenshot of the Copilot button in the sidebar of Microsoft 365 Copilot.](../Media/select-copilot.png)
 
-1. In the prompt box, enter the <kbd>@</kbd> symbol. A flyout appears with a list of available agents.
+1. In the prompt box, enter the `@` symbol. A flyout appears with a list of available agents.
 
     ![Screenshot of Microsoft Edge showing the agents flyout in Microsoft 365 Copilot.](../Media/copilot-agents-flyout.png)
 
