@@ -27,6 +27,8 @@ Create a connector tool using the SharePoint List Folder prebuilt connector and 
 
 1. In your web browser, navigate to [Copilot Studio](https://www.copilotstudio.microsoft.com) at `https://www.copilotstudio.microsoft.com`.
 
+1. In the upper-right corner of the page, verify that the Environment Selector shows the environment you created for this lab. If it shows the default environment, select the Environment Selector, then select the environment you created.
+
 1. In the sidebar, select **Agents**.
 
 1. Select **Microsoft 365 Copilot**.
