@@ -17,6 +17,10 @@ This exercise should take approximately **15** minutes to complete.
 
 1. Open Copilot Studio in your web browser by navigating to [Copilot Studio](https://copilotstudio.microsoft.com) at `https://copilotstudio.microsoft.com`.
 
+1. In the upper-right corner of the page, verify that the Environment Selector shows the environment you created for this lab. If it shows the default environment, select the Environment Selector, then select the environment you created.
+
+   ![Select your environment in Copilot Studio.](../Media/select-environment.png)
+
 1. Select **Tools** from the left navigation.
 
 1. Select **+ New tool**.
