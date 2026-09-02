@@ -62,7 +62,7 @@ Before you start the lab exercises, you must create a development environment to
 
 1. In a new browser tab, navigate to `https://copilotstudio.microsoft.com/` and sign in if prompted.
 
-1. In the upper-right corner of the page, locate the **New experience** toggle. If the toggle is selected, turn it off to return to the classic Copilot Studio experience. On the **Submit feedback to Microsoft** dialog, select **Submit** > **Done** to close it.
+1. If Copilot Studio opens in the new experience, locate the **New experience** toggle in the upper-right corner of the page and turn it off to return to the classic experience. On the **Submit feedback to Microsoft** dialog, select **Submit** > **Done** to close it. If Copilot Studio opens in the classic experience, skip this step.
 
    > [!NOTE]  
    > If you experience issues loading Copilot Studio on your environment:
