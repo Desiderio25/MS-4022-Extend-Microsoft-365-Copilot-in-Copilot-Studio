@@ -41,7 +41,7 @@ In Copilot Studio:
 
 ## Republish your agent
 
-Let's publish the updated agent to Microsoft 365 Copilot.
+Let's publish the updated agent to Microsoft Copilot.
 
 1. After your agent's changes have been saved successfully, select **Publish** at the top-right of your agent's overview page in Copilot Studio.
 
